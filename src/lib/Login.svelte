@@ -30,6 +30,7 @@
 
 {#if $currentUser}
   <p>Sign in as {$currentUser.username}</p>
+  <button on:click={signout}>Sign out</button>
 {:else}
   <form on:submit|preventDefault>
     <input type="text" placeholder="username" bind:value={username} />

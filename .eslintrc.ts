@@ -2,7 +2,11 @@ module.exports = {
   parser: '@typescript-eslint/parser', // add the TypeScript parser
   plugins: [
     'svelte3',
-    '@typescript-eslint' // add the TypeScript plugin
+    '@typescript-eslint', // add the TypeScript plugin
+    'prettier'
+  ],
+  extends: [
+    'prettier',
   ],
   overrides: [ // this stays the same
     {

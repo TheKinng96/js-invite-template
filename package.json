@@ -28,6 +28,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "pocketbase": "^0.9.1"
+    "pocketbase": "^0.9.1",
+    "sass": "^1.57.1"
   }
 }
