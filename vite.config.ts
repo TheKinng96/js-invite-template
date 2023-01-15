@@ -3,6 +3,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: 'js-invite-template',
+	base: '/js-invite-template',
 	plugins: [svelte()]
 });
